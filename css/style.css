@@ -1,0 +1,61 @@
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  min-width: 300px;
+  min-height: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    border: #919090 solid 1px;
+}
+
+form input:first-child {
+    width: 95%;
+    padding-inline-start: 10px;
+    font-style: italic;
+}
+
+form input:nth-child(2) {
+    font-weight: 600;
+    font-size: 1.25em;
+    width: 90%;
+}
+
+#weatherbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(109, 109, 108, 0.146);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #c1c1c1a5;
+}
+
+#weatherbox p {
+    font-size: 1.5em;
+    margin: 10px
+}
+
+#weatherbox p:first-child {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+
